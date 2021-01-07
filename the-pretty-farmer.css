@@ -8,3 +8,9 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+.bad {
+    color: red;
+}
+.good{
+    color: green;
+}
