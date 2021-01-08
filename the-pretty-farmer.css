@@ -6,14 +6,60 @@ body {
 
 }
 
+header  {
+    text-align: center;
+
+}
+
+header h1{
+    background: yellow;
+}
+
+.smalltext{
+    font-size: small;
+
+}
+
+.preamble{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    background: none;
+
+}
+
+.story{
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-left: 42.5%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+.storytable{
+    text-align: center;
+}
+
 p {
-    font-family: sans-serif;
+    font-family: serif;
     font-size: large;
     color: midnightblue;
     line-height: 25px;
 }
+
 q {
     font-size: 160%;
+    font-style: italic;
     background-color: lightgray;
     border-left: 3px;
     border-left-style: dashed;
@@ -22,14 +68,20 @@ q {
 }
 
 q.farmer {
-
+    border-color: blanchedalmond;
 
 }
 
 q.villagers {
-
+    border-color: brown;
 
 }
+
+:first-of-type p{
+    font-weight: bold;
+
+}
+
 a.good:visited {
     color: midnightblue;
 
@@ -52,26 +104,16 @@ a.bad:hover {
 
 }
 
-table {
-    border-collapse: collapse;
-    width: auto;
-
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-
-}
-
 .bad {
     color: red;
+    text-transform: capitalize;
 
 }
+
 
 .good {
     color: green;
+    text-transform: capitalize;
 
 }
 
@@ -83,6 +125,7 @@ hr {
 blockquote {
     width: 45%;
     margin: auto;
+    text-align: left;
 
 }
 
