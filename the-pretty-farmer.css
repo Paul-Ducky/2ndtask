@@ -10,6 +10,9 @@ header  {
     text-align: center;
 
 }
+header img {
+    float: ;
+}
 
 header h1{
     background: yellow;
@@ -38,8 +41,13 @@ table {
     width: auto;
     margin-left: 42.5%;
 }
-
-td, th {
+tr:nth-child(odd) {
+    background: white;
+}
+tr:nth-child(even){
+    background: gray;
+}
+th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -109,7 +117,10 @@ a.bad:hover {
     text-transform: capitalize;
 
 }
+a {
+    color: cornflowerblue;
 
+}
 
 .good {
     color: green;
@@ -129,7 +140,4 @@ blockquote {
 
 }
 
-a {
-    color: cornflowerblue;
 
-}
