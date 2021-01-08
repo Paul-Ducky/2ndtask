@@ -1,28 +1,19 @@
-
 body {
     width: 90%;
     margin: auto;
     background: linear-gradient(30deg, rgb(175, 200, 100), rgb(101, 164, 226));
-
+    font-family: OpenSans;
 }
-
 header  {
     text-align: center;
-
 }
-header img {
-    float: ;
-}
-
 header h1{
     background: yellow;
 }
-
 .smalltext{
     font-size: small;
 
 }
-
 .preamble{
     text-align: center;
     margin-left: 40%;
@@ -30,12 +21,15 @@ header h1{
     background: none;
 
 }
-
 .story{
     text-align: center;
 
 }
-
+.story img {
+     float: right;
+     margin-right: 30%;
+     border-radius: 95%;
+ }
 table {
     border-collapse: collapse;
     width: auto;
@@ -53,18 +47,18 @@ th {
     padding: 8px;
 
 }
-
 .storytable{
     text-align: center;
 }
-
+.conclusion{
+    text-align: center;
+}
 p {
     font-family: serif;
     font-size: large;
     color: midnightblue;
     line-height: 25px;
 }
-
 q {
     font-size: 160%;
     font-style: italic;
@@ -72,46 +66,30 @@ q {
     border-left: 3px;
     border-left-style: dashed;
     padding-left: 30px;
-
+    padding-top: 80px;
 }
-
 q.farmer {
     border-color: blanchedalmond;
 
 }
-
 q.villagers {
     border-color: brown;
 
 }
-
 :first-of-type p{
     font-weight: bold;
 
 }
-
-a.good:visited {
-    color: midnightblue;
-
-}
-
 a.good:hover {
     color: purple;
     font-size:150%;
 
 }
-
-a.bad:visited {
-    color: midnightblue;
-
-}
-
 a.bad:hover {
     color: purple;
     font-size:150%;
 
 }
-
 .bad {
     color: red;
     text-transform: capitalize;
@@ -121,23 +99,18 @@ a {
     color: cornflowerblue;
 
 }
-
 .good {
     color: green;
     text-transform: capitalize;
 
 }
-
 hr {
     width: 100%;
 
 }
-
 blockquote {
     width: 45%;
     margin: auto;
     text-align: left;
 
 }
-
-
